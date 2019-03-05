@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discover London</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css " integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU " crossorigin="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown ml-auto">
+                <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <h1 class="text-center mainHeader">Discover London</h1>
+
+        <h2>Places to stay & places to be!</h2>
+
+        <div id="map"></div>
+
+        <script>
+            function initMap() {
+                // Map options
+                var options = {
+                    zoom: 8,
+                    center: { lat:51.5074, lng: -0.1278}
+                }
+                
+                // New map
+                var map = new google.maps.Map(document.getElementById('map'), options);
+                
+                // Add markers
+                var marker = new google.maps.Marker({
+                    position:{lat:51.4955, lng:-0.1436},
+                    map:map
+                });
+            }
+        </script>
+
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&callback=initMap" async defer></script>
+
+
+    </section>
+</body>
+
+</html>
