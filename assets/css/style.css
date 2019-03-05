@@ -1,3 +1,4 @@
+/*------------------------------------------------Main body*/
 body {
     background: url(/images/london_skyview.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,17 +8,29 @@ body {
 }
 
 
+/*------------------------------------------------Map Section*/
 .mainHeader {
     color: white;
     font-weight: bold;
     font-size: 3em;
 }
 
+.mapText {
+    color: white;
+    font-weight: 400;
+}
+
+.and-link {
+    color: #E95420;
+}
 
 #map {
     height: 400px;
     width: 100%;
 }
+
+
+/*------------------------------------------------MediaQueries*/
 
 @media only screen and (max-width: 425px) {
 .mainHeader {
