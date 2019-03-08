@@ -36,103 +36,74 @@
     </header>
     <section>
         <h1 class="text-center mainHeader">Discover London</h1>
-<div class="row">
-    <div class="col-md-6">
+
         <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to be!</h2>
+        
+        <hr>
 
-        <div id="map"></div>
-
-        <script>
-    function initMap(){
-      // Map options
-      var options = {
-        zoom: 9,
-                    center: { lat: 51.5074, lng: -0.1278 }
-      }
-
-      // New map
-      var map = new google.maps.Map(document.getElementById('map'), options);
-
-      //Add listener for when you click on map
-      google.maps.event.addListener(map, 'click', function(event){
-        // Add marker
-        addMarker({coords:event.latLng});
-      });
-
-      /*
-      // Add marker
-      var marker = new google.maps.Marker({
-        position:{lat:42.4668,lng:-70.9495},
-        map:map,
-        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-      });
-
-      var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Lynn MA</h1>'
-      });
-
-      marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-      */
-
-      // Array of markers
-      var markers = [
-        {
-          coords:{lat: 51.4955, lng: -0.1436},
-          iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-          content:'<h1>Lynn MA</h1>'
-        },
-        {
-          coords:{ lat: 51.510067, lng: -0.133869},
-          content:'<h1>Amesbury MA</h1>'
-        },
-        {
-          coords:{lat: 51.5079, lng: -0.0877}
-        }
-      ];
-
-      // Loop through markers
-      for(var i = 0;i < markers.length;i++){
-        // Add marker
-        addMarker(markers[i]);
-      }
-
-      // Add Marker Function
-      function addMarker(props){
-        var marker = new google.maps.Marker({
-          position:props.coords,
-          map:map,
-          //icon:props.iconImage
-        });
-
-        // Check for customicon
-        if(props.iconImage){
-          // Set icon image
-          marker.setIcon(props.iconImage);
-        }
-
-        // Check content
-        if(props.content){
-          var infoWindow = new google.maps.InfoWindow({
-            content:props.content
-          });
-
-          marker.addListener('click', function(){
-            infoWindow.open(map, marker);
-          });
-        }
-      }
-    }
-  </script>
-
-
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&callback=initMap" async defer></script>
-
+         <div id="findPlaces">
+  Find Places:
 </div>
+
+<div id="locationField">
+  <input id="autocomplete" placeholder="Enter a city" type="text" />
+</div>
+
+<div id="controls">
+  <select id="country">
+    <option value="all">All</option>
+    <option value="en">England</option>
+    <option value="ni">Northern Ireland</option>
+    <option value="sc">Scotland</option>
+    <option value="wa">Wales</option>
+    <option value="uk" selected>United Kingdom</option>
+  </select>
+</div>
+
+<div id="map"></div>
+
+<div id="listing">
+  <table id="resultsTable">
+    <tbody id="results"></tbody>
+  </table>
+</div>
+
+<div style="display: none">
+  <div id="info-content">
+    <table>
+      <tr id="iw-url-row" class="iw_table_row">
+        <td id="iw-icon" class="iw_table_icon"></td>
+        <td id="iw-url"></td>
+      </tr>
+      <tr id="iw-address-row" class="iw_table_row">
+        <td class="iw_attribute_name">Address:</td>
+        <td id="iw-address"></td>
+      </tr>
+      <tr id="iw-phone-row" class="iw_table_row">
+        <td class="iw_attribute_name">Telephone:</td>
+        <td id="iw-phone"></td>
+      </tr>
+      <tr id="iw-rating-row" class="iw_table_row">
+        <td class="iw_attribute_name">Rating:</td>
+        <td id="iw-rating"></td>
+      </tr>
+      <tr id="iw-website-row" class="iw_table_row">
+        <td class="iw_attribute_name">Website:</td>
+        <td id="iw-website"></td>
+      </tr>
+    </table>
+  </div>
+</div>
+        <hr>
+
+   
 </div>
     </section>
+    <script type="text/javascript" src="/assets/javascript/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&libraries=places&callback=initMap" async defer></script>
+        
 </body>
+
+        
 
 </html>
