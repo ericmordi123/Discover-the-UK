@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Discover London</title>
+    <title>Discover The UK</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css " integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU " crossorigin="">
@@ -33,70 +33,61 @@
                 </div>
             </li>
         </ul>
-    </header>
-    <section>
-        <h1 class="text-center mainHeader">Discover London</h1>
+         <h1 class="text-center mainHeader">Discover London</h1>
 
         <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to be!</h2>
+    </header>
+    <section class="container">
         
         <hr>
+        <div class="row">
+            // search bar
+            <div class="col-xs-6 col-sm-8 input-group" id="locationField">
+                <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
+            </div>
+            <!--MAP-->
+            <div class="col-xs-6 col-sm-8" id="map"></div>
+            <!--RESULTS TABLE-->
+            <div class="col-xs-6" id="listing">
+                <table id="resultsTable">
+                    <tbody id="results"></tbody>
+                </table>
+            </div>
+        </div>
 
-         <div id="findPlaces">
-  Find Places:
-</div>
+        <div class="reset-button">
+            <input class="btn btn-primary" type="reset" value="Reset" onClick="window.location.reload()">
+        </div>
 
-<div id="locationField">
-  <input id="autocomplete" placeholder="Enter a city" type="text" />
-</div>
+        <div style="display: none">
+            <div id="info-content">
+                <table>
+                    <tr id="iw-url-row" class="iw_table_row">
+                        <td id="iw-icon" class="iw_table_icon"></td>
+                        <td id="iw-url"></td>
+                    </tr>
+                    <tr id="iw-address-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Address:</td>
+                        <td id="iw-address"></td>
+                    </tr>
+                    <tr id="iw-phone-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Telephone:</td>
+                        <td id="iw-phone"></td>
+                    </tr>
+                    <tr id="iw-rating-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Rating:</td>
+                        <td id="iw-rating"></td>
+                    </tr>
+                    <tr id="iw-website-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Website:</td>
+                        <td id="iw-website"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-<div id="controls">
-  <select id="country">
-    <option value="all">All</option>
-    <option value="en">England</option>
-    <option value="ni">Northern Ireland</option>
-    <option value="sc">Scotland</option>
-    <option value="wa">Wales</option>
-    <option value="uk" selected>United Kingdom</option>
-  </select>
-</div>
+        <hr>
 
-<div id="map"></div>
-
-<div id="listing">
-  <table id="resultsTable">
-    <tbody id="results"></tbody>
-  </table>
-</div>
-
-<div style="display: none">
-  <div id="info-content">
-    <table>
-      <tr id="iw-url-row" class="iw_table_row">
-        <td id="iw-icon" class="iw_table_icon"></td>
-        <td id="iw-url"></td>
-      </tr>
-      <tr id="iw-address-row" class="iw_table_row">
-        <td class="iw_attribute_name">Address:</td>
-        <td id="iw-address"></td>
-      </tr>
-      <tr id="iw-phone-row" class="iw_table_row">
-        <td class="iw_attribute_name">Telephone:</td>
-        <td id="iw-phone"></td>
-      </tr>
-      <tr id="iw-rating-row" class="iw_table_row">
-        <td class="iw_attribute_name">Rating:</td>
-        <td id="iw-rating"></td>
-      </tr>
-      <tr id="iw-website-row" class="iw_table_row">
-        <td class="iw_attribute_name">Website:</td>
-        <td id="iw-website"></td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-   
-</div>
     </section>
     <script type="text/javascript" src="/assets/javascript/script.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&libraries=places&callback=initMap" async defer></script>
