@@ -21,27 +21,19 @@
 
 <body>
     <header>
-        <ul class="nav nav-pills">
-            <li class="nav-item dropdown ml-auto">
-                <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
-                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-            </li>
-        </ul>
-         <h1 class="text-center mainHeader">Discover London</h1>
+      
+         <h1 class="text-center mainHeader">Discover The UK</h1>
 
-        <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to be!</h2>
-    </header>
-    <section class="container">
         
+    </header>
+    
+    <section class="container">
         <hr>
+        <div class="row mainText">
+        <div class="col-md-8">
+        <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to be!</h2>
         <div class="row">
-            // search bar
+            <!--SEARCH BAR-->
             <div class="col-xs-6 col-sm-8 input-group" id="locationField">
                 <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
             </div>
@@ -54,7 +46,7 @@
                 </table>
             </div>
         </div>
-
+<!--RESET BUTTON-->
         <div class="reset-button">
             <input class="btn btn-primary" type="reset" value="Reset" onClick="window.location.reload()">
         </div>
@@ -85,7 +77,18 @@
                 </table>
             </div>
         </div>
-
+</div>
+<div class="col-md-4 infoText">
+  <ul class="instructions">
+    <li><strong class="and-link">Discover The UK</strong> Uses the latest info from Google Maps to find all the best spots to dine and chill around the whole UK</li>
+    <li>Click/Tap the satalite button to get a live street view and make planning your journey anywhere in the UK much easier</li>
+    <li>Drag the <i class="fas fa-male"></i> icon anywhere on the map and get an actual streetview of where you want to go</li>
+    <li>Want to know the best places to stay and have a bite to eat? simply type in your destination in the search bar and let <strong class="and-link">Discover The UK</strong> do the work for you</li>
+    
+  </ul>
+  
+</div>
+</div>
         <hr>
 
     </section>
