@@ -15,7 +15,19 @@
     color: #E95420;
 }
 
+.infoText {
+  color:white;
+   background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
+}
 
+.instructions {
+  margin-top: 50px;
+}
+
+.instructions li {
+  margin-bottom: 20px;
+}
 
 
 /*------------------------------------------------MediaQueries*/
@@ -173,4 +185,9 @@ hr {
     #listing {
         display: none;
     }
+}
+
+hr {
+  background-color: #E95420;
+  height: 5px;
 }
