@@ -3,7 +3,8 @@ let map, places, infoWindow;
 let markers = [];
 let autocomplete;
 let countryRestrict = {'country': 'uk'};
-let MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_red';
+let MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
+let iconImage = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
 let hostnameRegexp = new RegExp('^https?://.+?/');
 
 // GOOGLE MAP
@@ -53,7 +54,7 @@ function onPlaceChanged() {
 function search() {
     var search = {
         bounds: map.getBounds(),
-        types: ['restaurant' ,'lodging', 'transport']
+        types: ['restaurant','lodging', 'shopping_mall','night_club']
     };
 
     places.nearbySearch(search, function(results, status) {
@@ -214,4 +215,9 @@ function buildIWContent(place) {
         document.getElementById('iw-website-row').style.display = 'none';
     }
 } 
-  
+
+$(document).ready(function(){
+	$(".close").click(function(){
+		$("#myAlert").alert();
+	});
+});
