@@ -15,88 +15,96 @@
 
 
 
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <header>
-      
-         <h1 class="text-center mainHeader">Discover The UK</h1>
 
-        
+        <h1 class="text-center mainHeader">Discover The UK</h1>
+        <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to Be!</h2>
+
+
     </header>
-    
+
     <section class="container">
         <hr>
         <div class="row mainText">
-        <div class="col-md-8">
-        <h2 class="text-center mapText">Places to stay <strong class="and-link"> & </strong> places to be!</h2>
-        <div class="row">
-            <!--SEARCH BAR-->
-            <div class="col-xs-6 col-sm-8 input-group" id="locationField">
-                <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
-            </div>
-            <!--MAP-->
-            <div class="col-xs-6 col-sm-8" id="map"></div>
-            <!--RESULTS TABLE-->
-            <div class="col-xs-6" id="listing">
-                <table id="resultsTable">
-                    <tbody id="results"></tbody>
-                </table>
-            </div>
-        </div>
-<!--RESET BUTTON-->
-        <div class="reset-button">
-            <input class="btn btn-primary" type="reset" value="Reset" onClick="window.location.reload()">
-        </div>
+            <div class="col-md-8 container-fluid">
+                <div class="row">
+                    <div class="alertBox">
+                        <div class="alert alert-warning" id="myAlert">
+                            <a href="#" class="close" data-dismiss="alert">&times;</a>
+                            <strong>Note:</strong> This app is only applicable for places within the countries that make up the UK (Engand, Scotland, Wales & Northern Ireland) X to exit.
+                        </div>
+                    </div>
 
-        <div style="display: none">
-            <div id="info-content">
-                <table>
-                    <tr id="iw-url-row" class="iw_table_row">
-                        <td id="iw-icon" class="iw_table_icon"></td>
-                        <td id="iw-url"></td>
-                    </tr>
-                    <tr id="iw-address-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Address:</td>
-                        <td id="iw-address"></td>
-                    </tr>
-                    <tr id="iw-phone-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Telephone:</td>
-                        <td id="iw-phone"></td>
-                    </tr>
-                    <tr id="iw-rating-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Rating:</td>
-                        <td id="iw-rating"></td>
-                    </tr>
-                    <tr id="iw-website-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Website:</td>
-                        <td id="iw-website"></td>
-                    </tr>
-                </table>
+                    <!--SEARCH BAR-->
+                    <div class="col-xs-6 col-sm-8 input-group" id="locationField">
+                        <input class="form-control" id="autocomplete" placeholder="Search a city (UK only)" type="text" />
+                    </div>
+
+                    <!--MAP-->
+                    <div class="col-xs-6 col-sm-8" id="map"></div>
+                    <!--RESULTS TABLE-->
+                    <div class="col-xs-6" id="listing">
+                        <table id="resultsTable">
+                            <tbody id="results"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--RESET BUTTON-->
+                <div class="reset-button">
+                    <input class="btn btn-primary" type="reset" value="Reset" onClick="window.location.reload()">
+                </div>
+
+                <div style="display: none">
+                    <div id="info-content">
+                        <table>
+                            <tr id="iw-url-row" class="iw_table_row">
+                                <td id="iw-icon" class="iw_table_icon"></td>
+                                <td id="iw-url"></td>
+                            </tr>
+                            <tr id="iw-address-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Address:</td>
+                                <td id="iw-address"></td>
+                            </tr>
+                            <tr id="iw-phone-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Telephone:</td>
+                                <td id="iw-phone"></td>
+                            </tr>
+                            <tr id="iw-rating-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Rating:</td>
+                                <td id="iw-rating"></td>
+                            </tr>
+                            <tr id="iw-website-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Website:</td>
+                                <td id="iw-website"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 infoText">
+                <ul class="instructions">
+                    <li><strong class="and-link">Discover The UK</strong> Uses the latest info from Google Maps to find all the best spots to dine and chill around the entire UK!. If you are looking for anything from hotels, bars and restuarants to clubs
+                        and places to shop anywhwere in the uk, you have come to the right place. </li>
+                    <li>Want to know the best places to stay and have a bite to eat? simply type in your chosen city in the search bar and let <strong class="and-link">Discover The UK</strong> do the work for you!</li>
+                    <li>Click/Tap the satalite button to get a live street view and make planning your journey anywhere in the UK much easier</li>
+                    <li>Drag the <i class="fas fa-male"></i> icon anywhere on the map and get an actual streetview of where you want to go</li>
+                </ul>
+
             </div>
         </div>
-</div>
-<div class="col-md-4 infoText">
-  <ul class="instructions">
-    <li><strong class="and-link">Discover The UK</strong> Uses the latest info from Google Maps to find all the best spots to dine and chill around the whole UK</li>
-    <li>Click/Tap the satalite button to get a live street view and make planning your journey anywhere in the UK much easier</li>
-    <li>Drag the <i class="fas fa-male"></i> icon anywhere on the map and get an actual streetview of where you want to go</li>
-    <li>Want to know the best places to stay and have a bite to eat? simply type in your destination in the search bar and let <strong class="and-link">Discover The UK</strong> do the work for you</li>
-    
-  </ul>
-  
-</div>
-</div>
         <hr>
 
     </section>
     <script type="text/javascript" src="/assets/javascript/script.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&libraries=places&callback=initMap" async defer></script>
-        
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQ6ZNg0u3-_BH9-VhR1GczgeOGAyEaIc&libraries=places&callback=initMap" async defer></script>
+
 </body>
 
-        
+
 
 </html>
