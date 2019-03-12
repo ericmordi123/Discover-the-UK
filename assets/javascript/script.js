@@ -3,14 +3,14 @@ let map, places, infoWindow;
 let markers = [];
 let autocomplete;
 let countryRestrict = {'country': 'uk'};
-let MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
+let MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_red';
 let hostnameRegexp = new RegExp('^https?://.+?/');
 
 // GOOGLE MAP
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 54.8, lng: -4.6 },
-        zoom: 4,
+        zoom: 5,
         mapTypeId: 'roadmap',
         scrollwheel: false
     });
@@ -53,7 +53,7 @@ function onPlaceChanged() {
 function search() {
     var search = {
         bounds: map.getBounds(),
-        types: ['restaurant' ,'lodging', 'gym']
+        types: ['restaurant' ,'lodging', 'transport']
     };
 
     places.nearbySearch(search, function(results, status) {
