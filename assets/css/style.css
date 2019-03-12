@@ -1,23 +1,95 @@
+html,
+body {
+  padding: 00px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background: url(/images/london_skyview.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*------------------------------------------------Map Section*/
+
 .mainHeader {
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
 }
 
 .mapText {
-    color: white;
-    font-weight: 400;
+  color: white;
+  font-weight: 400;
 }
 
 .and-link {
-    color: #E95420;
+  color: #E95420;
 }
 
+#map {
+  width: 80%;
+  height: 500px;
+  margin-left: 20px;
+}
+
+#listing {
+  width: 200px;
+  height: 500px;
+  overflow: auto;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+#locationField {
+  width: 80%;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#autocomplete {
+  width: 100%;
+  text-align: center;
+}
+
+#resultsTable {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+#rating {
+  font-size: 13px;
+  font-family: Arial;
+}
+
+.iw_table_row {
+  height: 18px;
+}
+
+.iw_attribute_name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.iw_table_icon {
+  text-align: right;
+}
+
+.reset-button {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/*------------------------------------------------Info Section*/
 .infoText {
-  color:white;
-   background-color: #b2b2b2;
+  margin-top: 50px;
+  color: white;
+  width: 80%;
+  height: 500px;
+  background-color: #b2b2b2;
   background-color: rgba(0, 0, 0, .3);
 }
 
@@ -33,158 +105,161 @@
 /*------------------------------------------------MediaQueries*/
 
 @media only screen and (max-width: 425px) {
-.mainHeader {
+  .mainHeader {
     color: white;
     font-weight: lighter;
     font-size: 2.5em;
-}
+  }
 }
 
- html,
-body {
-    padding: 00px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-     background: url(/images/london_skyview.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+/*-------------------------------------------------------Extras*/
+
+hr {
+  background-color: #E95420;
+  height: 5px;
 }
+
+.fa-male {
+   color: #E95420;
+   font-size: 2em;
+}
+
+
+
+
+
 
 /*HEADER*/
 
 .navbar {
-    background-color: #567EB3;
-    text-align: center;
+  background-color: #567EB3;
+  text-align: center;
 }
 
 .navbar-header h1 a:hover {
-    color: #0F4BB2;
+  color: #0F4BB2;
 }
 
 .navbar-brand {
-    height: 50px;
-    font-size: 50px;
-    line-height: 20px;
-    display: inline-block;
-    font-family: Arial;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 10px;
+  height: 50px;
+  font-size: 50px;
+  line-height: 20px;
+  display: inline-block;
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
 }
 
 h1 a {
-    color: #40C4F5;
-    text-decoration: none;
+  color: #40C4F5;
+  text-decoration: none;
 }
 
 
 /*SECTION*/
 
 #map {
-    width: 80%;
-    height: 500px;
-    margin-left: 20px;
+  width: 80%;
+  height: 500px;
+  margin-left: 20px;
 }
 
 #listing {
-    width: 200px;
-    height: 500px;
-    overflow: auto;
-    cursor: pointer;
-    overflow-x: hidden;
+  width: 200px;
+  height: 500px;
+  overflow: auto;
+  cursor: pointer;
+  overflow-x: hidden;
 }
 
 #locationField {
-    width: 80%;
-    height: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
+  width: 80%;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
 }
 
 #autocomplete {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #resultsTable {
-    border-collapse: collapse;
-    width: 400px;
+  border-collapse: collapse;
+  width: 400px;
 }
 
 #rating {
-    font-size: 13px;
-    font-family: Arial;
+  font-size: 13px;
+  font-family: Arial;
 }
 
 .iw_table_row {
-    height: 18px;
+  height: 18px;
 }
 
 .iw_attribute_name {
-    font-weight: bold;
-    text-align: right;
+  font-weight: bold;
+  text-align: right;
 }
 
 .iw_table_icon {
-    text-align: right;
+  text-align: right;
 }
 
 .reset-button {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
-hr {
-    border-top-color: #40C4F5;
-}
+
 
 /*FOOTER*/
 
 .footer {
-    background-color: #567EB3;
-    text-align: center;
+  background-color: #567EB3;
+  text-align: center;
 }
 
 .social-links a {
-    color: #40C4F5;
-    font-size: 50px;
-    padding-left: 15px;
+  color: #40C4F5;
+  font-size: 50px;
+  padding-left: 15px;
 }
 
 .social-links li a i:hover {
-    color: #0F4BB2;
+  color: #0F4BB2;
 }
 
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 1200px) {
-    #locationField {
-        width: 70%;
-    }
+  #locationField {
+    width: 70%;
+  }
 
-    #map {
-        width: 70%;
-    }
+  #map {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 766px) {
-    #locationField {
-        width: 92%;
-        margin-left: 15px;
-    }
+  #locationField {
+    width: 92%;
+    margin-left: 15px;
+  }
 
-    #map {
-        width: 92%;
-        margin-left: 15px;
-    }
+  #map {
+    width: 92%;
+    margin-left: 15px;
+  }
 
-    #listing {
-        display: none;
-    }
+  #listing {
+    display: none;
+  }
 }
 
 hr {
