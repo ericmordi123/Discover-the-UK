@@ -50,11 +50,11 @@ function onPlaceChanged() {
   }
 }
 
-// Search for hotels in the selected city, within the viewport of the map.
+// Search for hotels, restaurant and bars in the selected city, within the viewport of the map.
 function search() {
     var search = {
         bounds: map.getBounds(),
-        types: ['restaurant','lodging', 'shopping_mall','night_club']
+        types: ['restaurant','lodging','night_club']
     };
 
     places.nearbySearch(search, function(results, status) {
@@ -90,24 +90,6 @@ function clearMarkers() {
         }
     }
     markers = [];
-}
-
-// Set the country restriction based on user input.
-// Also center and zoom the map on the given country.
-function setAutocompleteCountry() {
-    var country = document.getElementById('country').value;
-    if (country == 'all') {
-        autocomplete.setComponentRestrictions({ 'country': [] });
-        map.setCenter({ lat: 15, lng: 0 });
-        map.setZoom(2);
-    }
-    else {
-        autocomplete.setComponentRestrictions({ 'country': country });
-        map.setCenter(countries[country].center);
-        map.setZoom(countries[country].zoom);
-    }
-    clearResults();
-    clearMarkers();
 }
 
 function dropMarker(i) {
