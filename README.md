@@ -75,13 +75,17 @@ I have launched this application through to GitHub Pages which can be found Here
 
 CREDIT
 Content
-I used a number of sights to insits me with my work 
+I used a number of sights to help me with my work 
 
 https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys to get info of all UK countries 
 https://trends.google.com/trends/?geo=US to get an idea out what people that are travelling would want to know
+I also used these google map templates as an outline which really helped https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
+https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
+
 https://developers.google.com/places/supported_types to get all supported types in places 
 
-I use Traversy Media's Youtube Channel Specificly his video showing how to use the Google Maps API to give me a better understatnding and I used it as a template to creat my own which can be found Here.
+I use Traversy Media's Youtube Channel Specificly his video showing how to use the Google Maps API to give me a better understatnding and I used it as a template to create my own. the youtube channel can be found here https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s
+
 
 ACKNOWLEDGEMENTS
 The main goal of this project was to create an App that assitst user on travelling in the UK for whatever reasons and find the best spots, places to stay and things to do and I think I have acheived this and i would like to thank my mentor and slack mentors, friends and study colleagues that helped with ideas and advice
