@@ -216,8 +216,21 @@ function buildIWContent(place) {
     }
 } 
 
-$(document).ready(function(){
-	$(".close").click(function(){
-		$("#myAlert").alert();
-	});
-});
+
+// This function allows the pop up to show when the screen is loaded
+// $(document).ready(function(){
+//     $( "myAlert" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+// 	$(".close").click(function(){
+// 		$("#myAlert").alert();
+// 	});
+// });
+
+function PopUp(hideOrshow) {
+    if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+    else document.getElementById('ac-wrapper').removeAttribute('style');
+}
+window.onload = function () {
+    setTimeout(function () {
+        PopUp('show');
+    }, 2000);
+}
