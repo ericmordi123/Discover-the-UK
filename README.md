@@ -1,4 +1,4 @@
-# Discover London APP 
+# Discover The UK APP 
 
 I have created a single page application utilising the google maps and google places API that enables users to search anywhere in the Uk for the best accomodation, nearby bars/restaurants and tourist attractions within that area. Whether planning a holiday, relocating for work or personal matters or just wanting to explore the country you live in this App makes it simple for you to do so.
 
@@ -23,15 +23,15 @@ View and select the tourist attractions/points of interest within the specified 
 Added reset button to refresh the page if you wish to restart your search.
 ## TECHNOLOGIES
 The Technologies I Have Used:
-Google Maps API - I have used the Google Maps API for use of their google maps service.
-Google Places API - I have use the Google Places Api for use of their points of interest/hotels/bars to be added to my map.
-Bootstrap - I have used Bootstrap for it's grid system, making my application responsive.
-Bootswatch - I used Bootswatch in order to keep the theme of my application consistent
-Boostrap Font Awesome - I have used the Bootstrap Font Awesome CDN to make use of their male icon.
-jQuery - I have used jQuery for simplicity with my JavaScript. 
+ - Google Maps API - I have used the Google Maps API for use of their google maps service.
+ - Google Places API - I have use the Google Places Api for use of their points of interest/hotels/bars to be added to my map.
+ - Bootstrap - I have used Bootstrap for it's grid system, making my application responsive.
+ - Bootswatch - I used Bootswatch in order to keep the theme of my application consistent
+ - Boostrap Font Awesome - I have used the Bootstrap Font Awesome CDN to make use of their male icon.
+ - jQuery - I have used jQuery for simplicity with my JavaScript. 
 
 ## Wireframes
-See wireframes in wireframe file
+See wireframes in wireframe file.
 
 ### Features left to implement 
 I was initially going to use D3.js to create traffic graph so that the user could have an idea of the best means of travel and the best times to get arounnd and I found a site called https://www.numbeo.com/api/doc.jsp that have an API holds this type of infomation.
@@ -52,22 +52,22 @@ I Tested the functionality of the App on various browsers/devices to ensure User
 
 - I have used a code Validator for each type of code in my project to make sure my code is clean and there are no issues.
 Here is each Validator used:
-HTML
-CSS
-JavaScript
+ - HTML
+ - CSS
+ - JavaScript
 
 - I also tested the functionality of the app on a number browsers/devices (see below) and found no issues
--- Yahoo - laptop, ipad and samsung
--- Chrome - laptop, iPad and Samsung
--- Safari - iPad
--- Internet Explorer - laptop, iPad and Samsung
+ - Yahoo - laptop, ipad and samsung
+ - Chrome - laptop, iPad and Samsung
+ - Safari - iPad
+ - Internet Explorer - laptop, iPad and Samsung
 
 
 ### User Stories Testing
-- - I tested the users ability to be able to see reviews and info for specific places for example an accomodation or a restuarant by clicking on the alphabatised markers making sure the full  information and contact details are shown in the info window and are easy to see.
-- - I also typed in diffrent locations and clicked on diffrent markers to make sure the all accomodation/bars rectuarants are being shown. 
-- - A User would want to search for accomodation so that I get an understanding of where places are so I can plan my stay. This was tested by making sure I had correctly used the API to fetch the correct places for that location.
-- - A User would  want to select a specific bar, restaurant or hotel and get the correct contact details and address for that place, so that they can give a place a call or visit their website for further info or to arrange a booking. This was tested by again making sure I had used Google's API correctly and it was showing the correct infomation.
+  - I tested the users ability to be able to see reviews and info for specific places for example an accomodation or a restuarant by clicking on the alphabatised markers making sure the full  information and contact details are shown in the info window and are easy to see.
+  - I also typed in diffrent locations and clicked on diffrent markers to make sure the all accomodation/bars rectuarants are being shown. 
+  - A User would want to search for accomodation so that I get an understanding of where places are so I can plan my stay. This was tested by making sure I had correctly used the API to fetch the correct places for that location.
+  - A User would  want to select a specific bar, restaurant or hotel and get the correct contact details and address for that place, so that they can give a place a call or visit their website for further info or to arrange a booking. This was tested by again making sure I had used Google's API correctly and it was showing the correct infomation.
 
 ## DEPLOYMENT
 Whilst completing this project I constantly commited every bug that was fixed, every update that was made either a change or adding to my code to improve the app, to Github using version control 
