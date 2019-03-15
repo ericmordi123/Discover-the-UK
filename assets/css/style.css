@@ -48,7 +48,6 @@ body {
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 10px;
-  background-color: #fff;
 }
 
 #autocomplete {
@@ -91,7 +90,7 @@ body {
 
 .infoText {
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: white;
   background-color: #b2b2b2;
   background-color: rgba(0, 0, 0, .4);
@@ -117,10 +116,6 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  #locationField {
-    width: 70%;
-  }
-
   #map {
     width: 70%;
   }
@@ -183,139 +178,4 @@ hr {
 
 
 
-/*HEADER*/
 
-/*.navbar {*/
-/*  background-color: #567EB3;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.navbar-header h1 a:hover {*/
-/*  color: #0F4BB2;*/
-/*}*/
-
-/*.navbar-brand {*/
-/*  height: 50px;*/
-/*  font-size: 50px;*/
-/*  line-height: 20px;*/
-/*  display: inline-block;*/
-/*  font-family: Arial;*/
-/*  padding: 0px;*/
-/*  margin: 0px;*/
-/*  margin-left: 10px;*/
-/*}*/
-
-/*h1 a {*/
-/*  color: #40C4F5;*/
-/*  text-decoration: none;*/
-/*}*/
-
-
-/*SECTION*/
-
-/*#map {*/
-/*  width: 80%;*/
-/*  height: 500px;*/
-/*  margin-left: 20px;*/
-/*}*/
-
-/*#listing {*/
-/*  width: 200px;*/
-/*  height: 500px;*/
-/*  overflow: auto;*/
-/*  cursor: pointer;*/
-/*  overflow-x: hidden;*/
-/*}*/
-
-/*#locationField {*/
-/*  width: 80%;*/
-/*  height: 25px;*/
-/*  margin-left: 20px;*/
-/*  margin-bottom: 20px;*/
-/*  background-color: #fff;*/
-/*}*/
-
-/*#autocomplete {*/
-/*  width: 100%;*/
-/*  text-align: center;*/
-/*}*/
-
-/*#resultsTable {*/
-/*  border-collapse: collapse;*/
-/*  width: 400px;*/
-/*}*/
-
-/*#rating {*/
-/*  font-size: 13px;*/
-/*  font-family: Arial;*/
-/*}*/
-
-/*.iw_table_row {*/
-/*  height: 18px;*/
-/*}*/
-
-/*.iw_attribute_name {*/
-/*  font-weight: bold;*/
-/*  text-align: right;*/
-/*}*/
-
-/*.iw_table_icon {*/
-/*  text-align: right;*/
-/*}*/
-
-/*.reset-button {*/
-/*  text-align: center;*/
-/*  margin-top: 15px;*/
-/*}*/
-
-
-
-/*FOOTER*/
-
-/*.footer {*/
-/*  background-color: #567EB3;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.social-links a {*/
-/*  color: #40C4F5;*/
-/*  font-size: 50px;*/
-/*  padding-left: 15px;*/
-/*}*/
-
-/*.social-links li a i:hover {*/
-/*  color: #0F4BB2;*/
-/*}*/
-
-/*MEDIA QUERIES*/
-
-/*@media only screen and (max-width: 1200px) {*/
-/*  #locationField {*/
-/*    width: 70%;*/
-/*  }*/
-
-/*  #map {*/
-/*    width: 70%;*/
-/*  }*/
-/*}*/
-
-/*@media only screen and (max-width: 766px) {*/
-/*  #locationField {*/
-/*    width: 92%;*/
-/*    margin-left: 15px;*/
-/*  }*/
-
-/*  #map {*/
-/*    width: 92%;*/
-/*    margin-left: 15px;*/
-/*  }*/
-
-/*  #listing {*/
-/*    display: none;*/
-/*  }*/
-/*}*/
-
-/*hr {*/
-/*  background-color: #E95420;*/
-/*  height: 5px;*/
-/*}*/
