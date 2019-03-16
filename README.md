@@ -35,7 +35,7 @@ The Technologies I Have Used:
 See wireframes in wireframe file.
 
 ### Features left to implement 
-I was initially going to use D3.js to create traffic graph so that the user could have an idea of the best means of travel and the best times to get arounnd and I found a site called https://www.numbeo.com/api/doc.jsp that have an API holds this type of infomation.
+I was initially going to use D3.js to create traffic graph so that the user could have an idea of the best means of travel and the best times to get arounnd and I found a site called [Numbeo](https://www.numbeo.com/api/doc.jsp) that have an API holds this type of infomation.
 This would have been ideal and a good addition to the app however the company Numbero do not give access to their API with out clearing it with them first so I had to contact them and ask for permission and was eventually granted acces however as I am only a student I can only use it for a maximum of six months so I chose not to include this as it was not a sustainable addition.
 
 ## TESTING
@@ -67,7 +67,7 @@ Here is each Validator used:
 ### User Stories Testing
   - I tested the users ability to be able to see reviews and info for specific places for example an accomodation or a restuarant by clicking on the alphabatised markers making sure the full  information and contact details are shown in the info window and are easy to see.
   - I also typed in diffrent locations and clicked on diffrent markers to make sure the all accomodation/bars rectuarants are being shown. 
-  - A User would want to search for accomodation so that I get an understanding of where places are so I can plan my stay. This was tested by making sure I had correctly used the API to fetch the correct places for that location.
+  - A User would want to search for accomodation so that they can get an understanding of where places are so I can plan my stay. This was tested by making sure I had correctly used the API to fetch the correct places for that location.
   - A User would  want to select a specific bar, restaurant or hotel and get the correct contact details and address for that place, so that they can give a place a call or visit their website for further info or to arrange a booking. This was tested by again making sure I had used Google's API correctly and it was showing the correct infomation.
 
 ## DEPLOYMENT
@@ -80,12 +80,13 @@ I used a number of sights to help me with my work
 
 * https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys -- To get info of all UK countries 
 * https://trends.google.com/trends/?geo=US -- To get an idea out what people that are travelling in the UK would want to know
-* I also used these google map templates as an outline which really helped:  - https://developers.google.com/maps/documentation/javascript/examples/places-searchbox  
-* - https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
+* I also used these google map templates as an outline which really helped:  
+ - https://developers.google.com/maps/documentation/javascript/examples/places-searchbox  
+ - https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
 * https://developers.google.com/places/supported_types -- To get all supported types in Google places API places 
-* I use Traversy Media's Youtube Channel https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
+* I also used [Traversy Media's Youtube Channel on using the google maps API](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s) Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
 
 
 ## ACKNOWLEDGEMENTS
-The main goal of this project was to create an App that assists the user with travelling in the UK for whatever reasons and find the best spots, places to stay and things to do and I think I have acheived this and I would like to thank my mentor and slack mentors, friends and study colleagues that helped with ideas and advice
-and also the code institue mentors that where always there if I needed anything. Another huge help was all the course and youtube videos that allowed me to go over what I was stuck on.
+The main goal of this project was to create an App that assists the user with travelling in the UK for whatever reasons and find the best spots, places to stay and things to do and I think I have achieved this and I would like to thank my mentor and slack mentors, friends and study colleagues that helped with ideas and advice
+and also the code institute mentors that where always there if I needed anything. Another huge help was all the course and youtube videos that allowed me to go over what I was stuck on.
