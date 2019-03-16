@@ -1,34 +1,35 @@
 # Discover The UK APP 
 
-I have created a single page application utilising the google maps and google places API that enables users to search anywhere in the Uk for the best accomodation, nearby bars/restaurants and tourist attractions within that area. Whether planning a holiday, relocating for work or personal matters or just wanting to explore the country you live in this App makes it simple for you to do so.
+I have created a single page application utilizing the google maps and google places API that enables users to search anywhere in the Uk for the best accommodation, nearby bars/restaurants and tourist attractions within that area. Whether planning a holiday, relocating for work or personal matters or just wanting to explore the country you live in this App makes it simple for you to do so.
 
 
 # UX DESIGN
-The purpose of this App is to give the user the the peace of mind of knowing the most most important information neccessary when travelling, which are the best places to stay and eat aswell as all the interesting and fun places to visit in their desired destinatiion. The user can see ratings of each hotel, bar and restaurant aswell as the address and contact details when a green maker is selected.
+The purpose of this App is to give the user the peace of mind of knowing the most important information necessary when traveling, which are the best places to stay and eat as well as all the interesting and fun places to visit in their desired destination. The user can see ratings of each hotel, bar, and restaurant as well as the address and contact details when a green marker is selected.
 
 ### User Stories:
 Anyone that wants to use this App can do any or all of the following-
-A User would be able to see reviews for specific places for example an accomodation or a restuarant and determine whether or not that place would be worth going to. 
+A User would be able to see reviews for specific places for example a hotel or a restuarant and determine whether or not that place would be worth going to. 
 A User would be able to get all details and contact infornation for any selected location so they can find out more, make a booking or do anything else they wish.
 A User can search for clubs and tourist attractions so I can have a realistic idea of what is around me and the things I can do.
-A user would be able to use the satalite option or drag the icon on the map to get anctual veiw of their chosen destination anywhere in the uk so they will know exactly what to expect. 
+A user would be able to use the satalite option or drag the icon on the map to get an actual veiw of their chosen destination anywhere in the uk so they will know exactly what to expect. 
 
 ## FEATURES
 Features Used in This Project:
 Able to search for any location anywhere in the UK.
-Find the closest accomodation/bars/restaurants in that area.
+Find the closest hotels/bars/restaurants in that area.
 View the ratings of each hotel/bar/restaurant.
 View the contact details and address of each hotel/bar/restaurant.
 View and select the tourist attractions/points of interest within the specified area.
-Added reset button to refresh the page if you wish to restart your search.
+Added a reset button to refresh the page if you wish to restart your search.
 ## TECHNOLOGIES
 The Technologies I Have Used:
- - Google Maps API - I have used the Google Maps API for use of their google maps service.
- - Google Places API - I have use the Google Places Api for use of their points of interest/hotels/bars to be added to my map.
- - Bootstrap - I have used Bootstrap for it's grid system, making my application responsive.
- - Bootswatch - I used Bootswatch in order to keep the theme of my application consistent
- - Boostrap Font Awesome - I have used the Bootstrap Font Awesome CDN to make use of their male icon.
- - jQuery - I have used jQuery for simplicity with my JavaScript. 
+ - [Google Maps API](https://developers.google.com/maps/documentation/javascript/get-api-key) - I have used the Google Maps API for use of their google maps service.
+ - [Google Places API](https://developers.google.com/places/web-service/intro) - I have use the Google Places Api for use of their points of interest/hotels/bars to be added to my map.
+ - [Bootstrap](https://getbootstrap.com/docs/3.3/getting-started/) - I have used Bootstrap for it's grid system, making my application responsive.
+ - [Bootswatch](https://bootswatch.com/) - I used Bootswatch in order to keep the theme of my application consistent
+ - [Font Awesome](https://fontawesome.com/) - I have used the Bootstrap Font Awesome CDN to make use of their male icon.
+ - [jQuery](http://jqueryui.com/) - I have used jQuery for simplicity with my JavaScript.
+ - [Google trends](https://trends.google.com/trends/?geo=US) - To get an idea out what people that are travelling in the UK would want to know
 
 ## Wireframes
 See wireframes in wireframe file.
@@ -52,15 +53,15 @@ I Tested the functionality of the App on various browsers/devices to ensure User
 
 - I have used a code Validator for each type of code in my project to make sure my code is clean and there are no issues.
 Here is each Validator used:
-  - HTML
-  - CSS
-  - JavaScript
+  - [HTML](https://validator.w3.org/)
+  - [CSS](http://www.css-validator.org/)
+  - [JavaScript](https://www.beautifyconverter.com/javascript-validator.php)
 
 - I also tested the functionality of the app on a number browsers/devices (see below) and found no issues
- - Yahoo - laptop, ipad and samsung
- - Chrome - laptop, iPad and Samsung
- - Safari - iPad
- - Internet Explorer - laptop, iPad and Samsung
+  - Yahoo - laptop, ipad and samsung
+  - Chrome - laptop, iPad and Samsung
+  - Safari - iPad
+  - Internet Explorer - laptop, iPad and Samsung
 
 
 ### User Stories Testing
@@ -77,12 +78,12 @@ I have deployed this application using GitHub Pages which can be found Here.
 ## CREDIT
 I used a number of sights to help me with my work 
 
-* https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys to get info of all UK countries 
-* https://trends.google.com/trends/?geo=US to get an idea out what people that are travelling in the UK would want to know
-* I also used these google map templates as an outline which really helped https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
-* https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
-* https://developers.google.com/places/supported_types to get all supported types in Google places API places 
-* https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s I use Traversy Media's Youtube Channel Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
+* https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys -- To get info of all UK countries 
+* https://trends.google.com/trends/?geo=US -- To get an idea out what people that are travelling in the UK would want to know
+* I also used these google map templates as an outline which really helped:  - https://developers.google.com/maps/documentation/javascript/examples/places-searchbox  
+* - https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
+* https://developers.google.com/places/supported_types -- To get all supported types in Google places API places 
+* I use Traversy Media's Youtube Channel https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
 
 
 ## ACKNOWLEDGEMENTS
