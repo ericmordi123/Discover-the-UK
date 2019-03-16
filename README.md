@@ -52,9 +52,9 @@ I Tested the functionality of the App on various browsers/devices to ensure User
 
 - I have used a code Validator for each type of code in my project to make sure my code is clean and there are no issues.
 Here is each Validator used:
- - HTML
- - CSS
- - JavaScript
+  - HTML
+  - CSS
+  - JavaScript
 
 - I also tested the functionality of the app on a number browsers/devices (see below) and found no issues
  - Yahoo - laptop, ipad and samsung
@@ -77,12 +77,12 @@ I have deployed this application using GitHub Pages which can be found Here.
 ## CREDIT
 I used a number of sights to help me with my work 
 
-- - https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys to get info of all UK countries 
-- - https://trends.google.com/trends/?geo=US to get an idea out what people that are travelling in the UK would want to know
-- - I also used these google map templates as an outline which really helped https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
-- - https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
-- - https://developers.google.com/places/supported_types to get all supported types in Google places API places 
-- - https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s I use Traversy Media's Youtube Channel Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
+* https://www.ranker.com/list/countries-in-united-kingdom/best-world-journeys to get info of all UK countries 
+* https://trends.google.com/trends/?geo=US to get an idea out what people that are travelling in the UK would want to know
+* I also used these google map templates as an outline which really helped https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
+* https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch 
+* https://developers.google.com/places/supported_types to get all supported types in Google places API places 
+* https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1347s I use Traversy Media's Youtube Channel Specificly his video showing how to use the Google Maps API to give me a better understatnding of how to use google API's.
 
 
 ## ACKNOWLEDGEMENTS
