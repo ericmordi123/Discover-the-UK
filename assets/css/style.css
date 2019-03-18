@@ -141,10 +141,6 @@ body {
         display:block !important;
     }
     
-    aside {
-      display: none !important;
-    }
-    
 }
  
 /* so that on small screen sizes infoSection is hidden*/
@@ -175,10 +171,3 @@ hr {
 .alertBox{
 		margin: 10px;
 	}
-
-
-
-
-
-
-
