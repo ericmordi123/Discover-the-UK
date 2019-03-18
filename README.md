@@ -8,22 +8,22 @@ The purpose of this App is to give the user the peace of mind of knowing the mos
 
 ### User Stories:
 Anyone that wants to use this App can do any or all of the following-
-A User would be able to see reviews for specific places, for example, a hotel or a restaurant and determine whether or not that place would be worth going to. 
-A User would be able to get all details and contact information for any selected location so they can find out more, make a booking or do anything else they wish.
-A User can search for clubs and tourist attractions so I can have a realistic idea of what is around me and the things I can do.
-A user would be able to use the satellite option or drag the icon on the map to get an actual view of their chosen destination anywhere in the UK so they will know exactly what to expect. 
+- A User would be able to see reviews for specific places, for example, a hotel or a restaurant and determine whether or not that be a good place to go to. 
+- A User would be able to get all details and contact information for any selected location so they can find out more, make a booking or do anything else they wish.
+- A User can search for clubs and tourist attractions so and have a realistic idea of what is around you and the things I can do.
+- A user would be able to use the satellite option or drag the icon on the map to get an actual view of their chosen destination anywhere in the UK so they will know exactly what to expect. 
 
 ## FEATURES
 Features Used in This Project:
+
+
 Able to search for any location anywhere in the UK.  
 
 Find the closest hotels/bars/restaurants in that area.
 
-View the ratings of each hotel/bar/restaurant.
+View the ratings of each hotel/bar/restaurant and get the contact details, address and link to website for further info.
 
-View the contact details and address of each hotel/bar/restaurant.
-
-View and select the tourist attractions/points of interest within the specified area.
+Have a real view of tourist attractions/points of interest within the specified area.
 
 Added a reset button to refresh the page if you wish to restart your search.
 
