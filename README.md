@@ -15,12 +15,18 @@ A user would be able to use the satellite option or drag the icon on the map to 
 
 ## FEATURES
 Features Used in This Project:
-Able to search for any location anywhere in the UK.
+Able to search for any location anywhere in the UK.  
+
 Find the closest hotels/bars/restaurants in that area.
+
 View the ratings of each hotel/bar/restaurant.
+
 View the contact details and address of each hotel/bar/restaurant.
+
 View and select the tourist attractions/points of interest within the specified area.
+
 Added a reset button to refresh the page if you wish to restart your search.
+
 ## TECHNOLOGIES
 The Technologies I Have Used:
  - [Google Maps API](https://developers.google.com/maps/documentation/javascript/get-api-key) - I have used the Google Maps API for use of their google maps service.
